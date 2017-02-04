@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" type="image/png" href="images/icon.png" />
+	<link rel="stylesheet" href="style.css">
+	<script src="jquery-1.12.2.min.js"></script>
+	<script src="script.js"></script>
+	<meta charset="UTF-8">
+	<title>Dogs do speak</title>
+</head>
+<body onload="f(); f_slider();" id="body_id" >
+<div class="content">
+		<div class="header">
+			<div class="logo"><h2 class="logo_header"><a href="#">GOLDEN RETRIEVER</a></h2></div>
+			<div class="menu" id="menu">
+				<ul>
+					<li><a href="#">HOME</a></li>
+					<li><a href="#about_us">ABOUT</a></li>
+					<li><a href="#contacts">CONTACTS</a></li>
+					<li><a href="#puppies">PUPPIES</a></li>
+					<li><a href="#our_dogs">OUR DOGS</a></li>
+					<li><a href="#events">EVENTS</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="slider" id="slider">
+			<div class="slide_left" id="slide_left"></div>
+			<div class="slide_right" id="slide_right"></div>
+		<div class="social">
+			<ul>
+				<a href="#"><li id="social1"></li></a>
+				<a href="#"><li id="social2"></li></a>
+				<a href="#"><li id="social3"></li></a>
+				<a href="#"><li id="social4"></li></a>
+				<a href="#"><li id="social5"></li></a>
+			</ul>
+		</div>
+		<div class="inner_slider_text" id="inner_slider_text">
+				<h1 class="header_slider_text">DOGS DO SPEAK,<br/><span>but to those who
+know how to listen</span></h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean suscipit tincidunt lacus ac laoreet. olor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna </p>
+			
+		<div class="slider_points">
+				<ul>
+					<li><div class="circle_slider_text1" id="c_slider1"></div></li>
+					<li><div class="circle_slider_text" id="c_slider2"></div></li>
+					<li><div class="circle_slider_text" id="c_slider3"></div></li>
+					<li><div class="circle_slider_text" id="c_slider4"></div></li>
+				</ul>	
+			</div>
+		</div>
+		<ul>
+			<li id="li0" class="slide"></li>
+			<li id="li1" class="slide"></li>
+			<li id="li2" class="slide"></li>
+			<li id="li3" class="slide"></li>
+		</ul>
+			<div class="read_more_slider"><a href="#about_us"><span>READ MORE</span></a></div>
+		</div>
+
+		<div class="main" id="main">
+			<div class="latest_events" id="events">
+				<h1>LATEST EVENTS</h1>
+				<ul>
+					<li><div class="circle_events"></div></li>
+					<li><div class="circle_events"></div></li>
+					<li><div class="circle_events"></div></li>
+					<li><div class="circle_events"></div></li>
+					<li><div class="circle_events"></div></li>
+				</ul>	
+			</div>
+			<div id="events_block" class="events_block">
+
+
+				<div class="dog_event1" id="dog_event1"  onmouseover="dog_event_border(1)" onmouseout="dog_event_border_none(1)">
+					<div class="dog1_title">
+						<h2><span class="h2_dogs_class">01/</span>DOG TRAINING TIPS</h2>
+					</div>
+					<div class="dog1_image_event"></div>
+					<div class="p_dog_description_events">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</div>
+					<div onclick="events_read_more()" class="about_dog1">READ MORE</div>
+				</div>
+				<div class="dog_event2" id="dog_event2" onmouseover="dog_event_border(2)" onmouseout="dog_event_border_none(2)">
+					<div class="dog1_title">
+						<h2><span class="h2_dogs_class">02/</span>DOG TRAINING TIPS</h2>
+					</div>
+					<div class="dog2_image_event"></div>
+					<div class="p_dog_description_events">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut
+						labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</div>
+					<div onclick="events_read_more()" class="about_dog1">READ MORE</div>
+				</div>
+				<div class="dog_event3" id="dog_event3"  onmouseover="dog_event_border(3)" onmouseout="dog_event_border_none(3)">
+					<div class="dog1_title">
+						<h2><span class="h2_dogs_class">03/</span>DOG TRAINING TIPS</h2>
+					</div>
+					<div class="dog3_image_event"></div>
+					<div class="p_dog_description_events">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt
+						ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</div>
+					<div onclick="events_read_more()" class="about_dog1">READ MORE</div>
+				</div>
+
+
+				<div class="event_main" id="event_main">
+				<div class="event_slider">
+					<div class="left_ar"></div>
+					<div class="right_ar"></div>
+					<div class="slider_cross"></div>
+					<div class="slider_footer_text_bg"></div>	
+					<div class="slider_footer_text">Olor sit amet conse ctetur adipisicing elit, sed do eiusmod </div>	
+				</div>
+					<div class="events_text">
+						<div class="events_back" onclick="back_to_events()"><span>BACK</span></div>
+						<div class="event_main_text">
+						<h2><span>30.02.2016/</span>PUPPIES DAY</h2>
+						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</div>
+					</div>
+
+				</div>
+				
+			</div>
+			
+
+				<div class="our_dogs" id="our_dogs">
+					<h1>OUR DOGS</h1>
+					<ul>
+						<li><div class="circle_events"></div></li>
+						<li><div class="circle_events"></div></li>
+						<li><div class="circle_events"></div></li>
+						<li><div class="circle_events"></div></li>
+						<li><div class="circle_events"></div></li>
+					</ul>	
+				</div>
+
+			<div class="our_dogs_block">
+			
+
+				<div class="dog1" id="dog1" onmouseover="dog_event_border(4)" onmouseout="dog_event_border_none(4)">
+					<div class="dog1_title">
+						<h2><span class="h2_dogs_class">7 month/</span>MILLIE</h2>
+					</div>
+					<div class="dog1_image"></div>
+					<div class="p_dog_description">Young yellow Labrador Retriever Millie, 7 months old.</div>
+					<div class="about_dog1">ABOUT</div>
+				</div>
+				<div class="dog2">
+					<div class="dog1_title">
+						<h2><span class="h2_dogs_class">7 month/</span>MILLIE</h2>
+					</div>
+					<div class="dog2_image"></div>
+					<div class="p_dog_description">Young yellow Labrador Retriever Millie, 7 months old.</div>
+					<div class="about_dog1">ABOUT</div>
+				</div>
+				<div class="dog3">
+					<div class="dog1_title">
+						<h2><span class="h2_dogs_class">7 month/</span>MILLIE</h2>
+					</div>
+					<div class="dog3_image"></div>
+					<div class="p_dog_description">Young yellow Labrador Retriever Millie, 7 months old.</div>
+					<div class="about_dog1">ABOUT</div>
+				</div>
+				<div class="our_dogs_more">
+
+				</div>
+
+
+
+			</div>
+			
+
+
+
+		</div>
+
+
+	
+		<div class="about_us" id="about_us">
+				<div class="about_us_content" id="about_us_content">
+
+					
+					<div class="about_us_main">
+						<div class="about_us_img"></div>
+						<span class="about_us_text">
+						
+						<div class="about_us_h2"><h2>ABOUT US</h2></div>
+								<span class="about_us_p"><h3>LOREM<span>/LIFE</span></h3>
+							<p>Dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.	Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+								<h3>LELIT<span>/STYLE</span></h3>
+								Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laborisquis nostrud exercitation ullamco laboris.
+Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore .</p></span></span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+
+<div class="main">
+	<div class="puppies" id="puppies">
+		<h1>PUPPIES</h1>
+			<div class="puppies_div1">
+				<h1>PUPPIES <span>/Golden retriver</span></h1>
+				<p>Dolor sit amet conse ctetur adipisicing elit, sed do eiusmod.
+ tempor incididunt ut labore et dolore magna aliqua.<br> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.	<br>
+Is nostrud exercitation ullamco laborisquis nostrud exercitation ullamco laboris.
+Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore. <br>
+Dolor sit amet conse ctetur adipisicing elit, sed do eiusmod.
+ tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+			</div>
+		<div class="puppie_booking">
+			<div class="pup_img">
+				<div class="puppie_booking_button" onclick="booking_pups(1)"><h2>BOOKING</h2></div>
+
+			</div>
+				<div class="booking_form" id="booking_form1">
+					<form>
+						<input type="text" class="first_input" name="your_name" placeholder="your name">
+						<input type="text" name="phone" placeholder="your phone">
+						<input type="text" name="email" placeholder="your email">
+						<div id="submit_button_puppies" onclick="booking_send(1)">SEND</div>
+					</form>
+				</div>
+		</div>
+		
+		<div class="puppy_booking2">
+			<div class="puppy2_image">
+				<div class="booking2" onclick="booking_pups(2)"><h2>BOOKING</h2></div>
+				<div class="booking_form" id="booking_form2">
+					<form>
+						<input type="text" class="first_input" name="your_name" placeholder="your name">
+						<input type="text" name="phone" placeholder="your phone">
+						<input type="text" name="email" placeholder="your email">
+						<div id="submit_button_puppies" onclick="booking_send(2)">SEND</div>
+					</form>
+				</div>
+				<div class="puppy_booking2_text"><span>Jack Russel</span> puppy</div>
+			</div>
+			<div class="puppy_booking2_text2">
+				<div class="puppy_2_text_block"><h2>PUPPIES<span>/Golden retriver</span></h2>
+				<p>
+				Dolor sit amet conse ctetur adipisicing elit, sed do eiusmod.
+ tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.	
+Is nostrud exercitation ullamco laborisquis nostrud exercitation ullamco laboris.
+Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore .
+Is nostrud exercitation ullamco laborisquis nostrud Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore .
+Is nostrud exercitation ullamco laborisquis nostrud exercitation ullamco laboris.
+				</p>
+				</div>
+				
+				
+							
+						</div>
+					<div class="puppies_div3">
+				<h1>PUPPIES <span>/Golden retriver</span></h1>
+				<p>Dolor sit amet conse ctetur adipisicing elit, sed do eiusmod.
+ tempor incididunt ut labore et dolore magna aliqua.<br> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.	<br>
+Is nostrud exercitation ullamco laborisquis nostrud exercitation ullamco laboris.
+Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore. <br>
+Dolor sit amet conse ctetur adipisicing elit, sed do eiusmod.
+ tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+			</div>
+			
+			</div>
+			
+			<div class="div4">
+				<div class="slide_pup_left"></div>
+				<div class="slide_pup_right"></div>
+				<div class="booking_div4_pup" onclick="booking_pups(3)"><h2>BOOKING</h2></div>
+				<div class="booking_form" id="booking_form3">
+					<form>
+						<input type="text" class="first_input" name="your_name" placeholder="your name">
+						<input type="text" name="phone" placeholder="your phone">
+						<input type="text" name="email" placeholder="your email">
+						<div id="submit_button_puppies" onclick="booking_send(3)">SEND</div>
+					</form>
+				</div>
+				<div class="booking_div4_pup_text"><p><span>Golden retriever</span> puppy</p></div>
+			</div>
+			
+		<div class="more_puppies">MORE PUPPIES</div>
+		</div>
+		
+
+
+
+	</div>
+	<div class="footer_contatcs" id="contacts">
+		<div class="main">
+			<div class="contacts_footer" id="cont_footer1">
+				<ul><h3>CONTACTS</h3>
+				<li>+384 23 43 235</li>
+				<li>+384 23 43 235</li>
+				<li>dog@hotmail.com</li>
+				<li>infodog@gmail.com</li>
+				</ul>
+			</div>
+
+			<div class="contacts_footer">
+				<ul><h3>ABOUT</h3>
+				<li>News</li>
+				<li>Events</li>
+				<li>Media</li>
+				</ul>
+			</div>
+
+			<div class="contacts_footer">
+				<ul><h3>SOCIAL</h3>
+				<li>facebook</li>
+				<li>Twitter</li>
+				<li>g+</li>
+				</ul>
+			</div>
+
+			<div class="contacts_footer" id="footer_form">
+				<form>
+					<input type="text" name="user_name" placeholder="your name">
+					<input type="text" name="email" placeholder="your email">
+					<textarea name="message" id="message" placeholder="message"></textarea>
+					<button class="button_submit_footer" ></button>
+				</form>
+			</div>
+
+				<div class="contacts_footer">
+				<ul><h3>HOME</h3>
+				<li>PUPPIES</li>
+				<li>CONTACTS</li>
+				<li>BOOKING</li>
+				<li>EVENTS</li>
+				<li>ABOUT</li>
+				</ul>
+
+			</div>
+			<a href="#menu"><div class="up_button"></div></a>
+		</div>
+	</div>
+	<div class="copywrites"><small>Dog Training Center © 2016. Privacy Policy</small></div>
+	<div class="footer_map" id="map">
+		<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:400px;width:100%;'><div id='gmap_canvas' style='height:400px;width:100%;'></div><div><small><a href="http://embedgooglemaps.com">									embed google maps							</a></small></div><div><small><a href="http://www.autohuren.world/">auto huren</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:10,center:new google.maps.LatLng(40.7127837,-74.00594130000002),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(40.7127837,-74.00594130000002)});infowindow = new google.maps.InfoWindow({content:'<strong>map</strong><br>new york<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+	</div>
+</div>
+</div>
+</body>
+</html>
